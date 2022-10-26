@@ -2,7 +2,6 @@
 
 (()=> 
 {
-
 	// select input field
 	const formElm = document.querySelector('form');
 	const fNameElm = document.querySelector('#fName');
@@ -132,8 +131,6 @@
 	// ----------------I need to work form here-----------------------------------------------------
 
 	// ---------------------------------------------------------------------
-
-
 		// name start here 
 		if(!fName)
 		{
@@ -189,7 +186,7 @@
 			errorMessage2Elm.textContent = 'max length should be 10 char';
 			
 		}
-			else
+		else
 		{
 			lNameElm.style.border = '1px solid #757575';
 			errorMessage2Elm.style.marginLeft = '12px';

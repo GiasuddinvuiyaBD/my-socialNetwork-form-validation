@@ -1,0 +1,21 @@
+Assalamu alaikum, 
+
+Today i have complted my socail Network form validation.
+At first i have completed HTML And CSS part then i have finished javascript part 
+
+Now i would like to talk about my social network form validation javascipt part.
+At first i have selected all the html elment. Then i sat "click" event listener in form submit button. After that i take a function call formValidation(). Inside this function i have taken fistName input value,lastName input value,email input value, password and confirm password input value.
+
+After this think i am doing i set regular expression for fName,lName,email,password and confirm password. then i am doing form validation like this if name input filed is empty then showin an error message like 'Please fill up the fname input' in then way i have validate all the input field. 
+
+
+After all think  i have done then i have added another event call keypress.I set keypress just a resoan when user click input filed those time we will hide the error message. So it's all about my social network form validation.
+
+Here is gitHub link: 
+Here is live link : 
+
+
+
+
+
+
