@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Social Network</title>
+</head>
+<body>
+		<div class="container">
+			<div class="brand-name">
+				<h2>Social Network</h2>
+			</div>
+			<div class="crreateAccount">
+				<div class="createAccMessage">
+					<h2>Create an account</h2>
+				</div>
+				<div class="form-start">
+					<form action="#" novalidate>
+						<div class="fNames">
+							<input type="text" name="fName" id="fName" placeholder="First Name : " autocomplete="off">
+							<div class="errorMessage1"></div>
+						</div>
+
+						<div class="lNames">
+							<input type="text" name="lName" id="lName" placeholder="Last Name : " autocomplete="off">
+							<div class="errorMessage2"></div>
+						</div>
+						<!-- <p id="minLengthErrors">Minimum length should be 5 charactor's</p> -->
+
+						<input type="eamil" name="email" id="email" placeholder="Email Address : " autocomplete="off">
+						<div class="emailError"></div>
+						<!-- <p id="mailErrorMess">Email Address is required.</p> -->
+
+						<input type="phone" name="phone" id="phone" placeholder="Phone Number : " autocomplete="off">
+						<div class="phoneNumErrorMess"></div>
+						<!-- <p id="phoneNumErrorMess">You should give exact 11 digit's.</p> -->
+
+						<div class="passwordField">
+							<input type="password" name="password" id="password" placeholder="Password : " autocomplete="off">
+							<div class="passwordErrorMes"></div>
+						</div>
+						<!-- <p id="passwordErrorMes">You should give minimum 8 charactor's</p> -->
+						<div class="confirmPasswordField">
+							<input type="password" name="ConfirmPassword" id="ConfirmPassword" placeholder="Confirm Password : " autocomplete="off">
+							<div class="confirmPasswordErro"></div>
+						</div>
+
+						<input type="checkbox" name="check" id="check" value="checked">
+						<input type="submit" id="submitBtn" value="Next">
+					</form>
+				</div>
+			</div>
+		</div>
+
+	<script src="js/script.js"></script>
+	
+	<!-- <script src="js/practice.js"></script> -->
+</body>
+</html>

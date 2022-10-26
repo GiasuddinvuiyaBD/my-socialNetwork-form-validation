@@ -1,0 +1,196 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #f0f2f5;
+}
+
+.container
+{
+	width: 450px;
+    margin: 100px 0 5px 500px;
+
+}
+
+.container .crreateAccount {
+    border: 1px solid #9e9e9e;
+    border-radius: 8px;
+    background: #fff;
+    transition: 1s;
+}
+.container .crreateAccount:hover 
+{
+	box-shadow: 2px 3px 4px 2px #bdbdbd;
+}
+.brand-name h2 {
+	margin-bottom: 12px;
+    text-align: center;
+    font-size: 32px;
+    font-family: initial;
+    color: #512da8;
+}
+
+.createAccMessage h2 {
+    margin: 10px 0px;
+    text-align: center;
+    font-family: monospace;
+    color: #000;
+}
+
+.form-start form input
+{
+	width: 100%;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.form-start input[id="fName"] {
+    width: 90%;
+    margin: 7px 0 6px 10px;
+    padding: 10px 8px;
+    font-size: 16px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+.form-start input[id="fName"]:hover 
+{
+	border: 1px solid #bdbdbdb8;
+}
+.form-start input[id="fName"]:focus 
+{
+	border-bottom: 1px solid #512DA8;
+}
+input[id="fName"]:focus::placeholder
+{
+	color: gray;
+}
+/*fname end here */
+
+.form-start input[id="lName"] {
+    width: 90%;
+    margin: 7px 0 6px 10px;
+    padding: 10px 8px;
+    font-size: 16px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+.form-start input[id="lName"]:hover 
+{
+	border: 1px solid #bdbdbdb8;
+}
+.form-start input[id="lName"]:focus 
+{
+	border-bottom: 1px solid #512DA8;
+}
+input[id="lName"]:focus::placeholder
+{
+	color: gray;
+}
+
+/*Email box design start here*/
+.form-start input[id="email"],
+.form-start input[id="phone"]
+{
+	width: 96%;
+	margin: 5px 0 5px 10px;
+	padding: 10px 8px;
+	 font-size: 16px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+.form-start input[id="password"],
+.form-start input[id="ConfirmPassword"]
+{
+    width: 92%;
+    margin: 5px 0 5px 10px;
+    padding: 10px 8px;
+     font-size: 16px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+.passwordField 
+{
+   
+    float: left;
+}
+.confirmPasswordField
+{
+    
+    overflow: hidden;
+}
+
+.form-start input[id="email"]:hover,
+.form-start input[id="phone"]:hover,
+.form-start input[id="password"]:hover,
+.form-start input[id="ConfirmPassword"]:hover
+{
+	border: 1px solid #bdbdbdb8;
+}
+.form-start input[id="email"]:focus,
+.form-start input[id="phone"]:focus,
+.form-start input[id="password"]:focus,
+.form-start input[id="ConfirmPassword"]:focus
+{
+	border-bottom: 1px solid #512DA8;
+}
+
+.form-start input[id="email"]:focus::placeholder,
+.form-start input[id="phone"]:focus::placeholder,
+.form-start input[id="password"]:focus::placeholder,
+.form-start input[id="ConfirmPassword"]:focus::placeholder
+{
+	color: gray;
+}
+/*check box start */
+.form-start input[type="checkbox"] {
+    width: 7%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.form-start input[type="submit"] {
+    width: 96%;
+    margin: 8px 0 15px 10px;
+    padding: 10px 8px;
+    font-size: 16px;
+    border: 1px solid #1a237e;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+    color: #fff;
+    background: #1a237e;
+}
+
+.form-start input[type="submit"]:focus 
+{
+	border: 1px solid #fff;
+}
+/*error message design*/
+#minLengthErrors,
+#mailErrorMess,
+#phoneNumErrorMess,
+#passwordErrorMes
+{
+    margin: 0 0 0 9px;
+    font-size: 16px;
+    color: red;
+}
+
+.fNames 
+{
+    width: 50%;
+    float: left;
+}
+
+.lNames 
+{
+     width: 50%;
+    overflow: hidden;
+}
